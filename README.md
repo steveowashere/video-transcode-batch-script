@@ -1,6 +1,3 @@
-# [Transcode_Video](https://github.com/donmelton/video_transcoding) Batch Script
-A simple script to make batch scripts for Transcode Video by Don Melton
-
 # Transcode_Video Batch Script
 A simple script to make batch scripts for [Transcode Video](https://github.com/donmelton/video_transcoding  "Transcode Video") by Don Melton
 
