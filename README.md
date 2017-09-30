@@ -8,7 +8,7 @@ If this isn't doesn't suit your needs, Don provides example for batch scripts. [
 
 # Usage
 
-There is one python script than needs to be run in whichever way you see fit (Python 2.x or 3.x is required). This depends on your OS. It has been tested on Linux and Windows. It will likely work on OSx.  The batch script will be output as a shell script by default, but this can be changed to any format needed by modifying the 'BatchScriptName'
+There is one python script than needs to be run in whichever way you see fit (Python 3 is required). This depends on your OS. It has been tested on Linux and Windows. It will likely work on OSx.  The batch script will be output as a shell script by default, but this can be changed to any format needed by modifying the 'BatchScriptName'
 
 The script also needs to be setup for your folders/paths.  You also need to manually enter the arguments you want for each video that will be processed. I have included my 'default' agruments I use. Pay attention to the comments in the script, as they will tell you what everything does.
 
