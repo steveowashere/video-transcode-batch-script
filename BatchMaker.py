@@ -19,8 +19,10 @@ with open(BatchScriptName, "w") as a: #Open the script
             f = os.path.join(path, filename)
             print('Now Processing: ' + f)
             output = subprocess.check_output('transcode-video --scan ' + '"' + str(f) + '"' , shell=True) #Check for subtitles
+            if b'English (iso639-2: eng)' in output: #If English subtitle is detected in scan output. Change 'English' and 'eng' to preferred language.
                EngSubs = ' --add-subtitle eng '
                print('English subtitle found, adding...')
             else:
                EngSubs = ''
                print('No subtiles found.')
+            a.write('transcode-video' + EngSubs + '--target 1080p=8000 --quick --output ' + OutputPath + ' "' + str(f) + '"\n') #Set arguments for transcode-video. Change as needed. Each line must start with 'call' when using Windows. f.x. 'call transcode-video...'
