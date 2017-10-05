@@ -10,7 +10,7 @@ If this isn't doesn't suit your needs, Don provides example for batch scripts. [
 
 There is one python script than needs to be run in whichever way you see fit (Python 3 is required). This depends on your OS. It has been tested on Linux and Windows. It will likely work on OSx.  The batch script will be output as a shell script by default, but this can be changed to any format needed by modifying the 'BatchScriptName'
 
-The script also needs to be setup for your folders/paths.  You also need to manually enter the arguments you want for each video that will be processed. I have included my 'default' agruments I use. Pay attention to the comments in the script, as they will tell you what everything does.
+As up update 1.1, when running the script it will ask for an input and output folder path. (make sure to use OS correct backslashes or forward slashes). 
 
 Detecting and adding subtitles works, but it requires a little care. At the moment, it only looks for English subtitles using the 'transcode-video --scan' command. You can easliy change this to fit your language preference. To add more than one subtitle can be done by simply adding another if-else statement before writing the text. 
 
