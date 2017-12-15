@@ -16,5 +16,5 @@ Detecting and adding subtitles works, but it requires a little care. At the mome
 
 # Future Plans
 
-* Better way to handle subtitles
+* Complete overhaul using [Pymediainfo](https://github.com/sbraz/pymediainfo)
 * More things that come to mind
